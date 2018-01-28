@@ -27,8 +27,11 @@ class Song
       if genre_hash[gen] == false
         genre_hash[gen] = 1
       else
-        genre_hash[gen] = genre_hash[gen] + 1
+        g_count = genre_hash[gen]
+        g_count += 1
+        genre_hash[gen] = g_count
       end
     end
   end
 end
+  
