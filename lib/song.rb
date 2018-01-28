@@ -27,9 +27,7 @@ class Song
       if genre_hash[gen] == nil
         genre_hash[gen] = 1
       else
-        g_count = genre_hash[gen]
-        g_count += 1
-        genre_hash[gen] = g_count
+        genre_hash[gen] += 1
       end
     end
     return genre_hash
