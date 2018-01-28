@@ -22,7 +22,7 @@ class Song
   end
   def self.genre_count
     genre_hash = {}
-    gen_array = @@genre.sort
+    gen_array = @@genres.sort
     gen_array.each do |gen|
       if genre_hash[gen] == false
         genre_hash[gen] = 1
