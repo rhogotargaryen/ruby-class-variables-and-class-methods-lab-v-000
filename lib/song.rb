@@ -42,5 +42,6 @@ class Song
         art_hash[art] += 1
       end
     end
+    return art_hash
   end
 end
