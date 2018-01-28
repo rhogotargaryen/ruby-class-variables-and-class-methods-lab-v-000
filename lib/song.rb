@@ -32,5 +32,6 @@ class Song
         genre_hash[gen] = g_count
       end
     end
+    return genre_hash
   end
 end
