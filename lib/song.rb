@@ -33,7 +33,7 @@ class Song
     return genre_hash
   end
   def self.artist_count
-    artist_hash = {}
+    art_hash = {}
     art_array = @@genres.sort
     art_array.each do |art|
       if art_hash[art] == nil
