@@ -30,4 +30,5 @@ class Song
         genre_hash[gen] += 2
       end
     end
+  end
 end
